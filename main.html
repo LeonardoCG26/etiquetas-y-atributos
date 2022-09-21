@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas y atributos</title>
+</head>
+<body>
+    <p>atributos para etiquetas de seccion o para estructurar el HTML </p>
+    <P>etiqueta h1,h2,h3,h4, etc</P>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+
+    <h1 title="etiqueta h1" id="h a la 1" class="h" style="color:pink ;" lang="es" dir="auto">etiqueta h1 </h1>
+    <h2 title="etiqueta h2" id="h a la 2" class="h" style="color:red ;" lang="es" dir="auto">ejemplo en un h2</h2>
+    <h3 title="etiqueta h3" id="h a la 3" class="h" style="color:green ;" lang="es" dir="auto">ultimo en h3</h3>
+
+    <p>etiqueta de article</p>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+    <article title="articulo" id="etiqueta article" class="a" style="border:solid ;" lang="es" dir="auto" >etiqueta article </article>
+
+    <p>atributos para etiquetas para la agrupacion de contenido </p>
+
+    <p>usando la etiqueta p</p>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+    <!--align Indica la alineación horizontal con relación al contexto-->
+
+    <p title="texto con color de fondo" id="tex" class="p" style="background-color:gainsboro ;" lang="es" dir="auto" >texto con fondo de ejemplo de etiqueta p</p>
+    <p>usando etiqueta pre</p>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+    <pre title="no es una broma" id="letra" class="l" style="position:absolute ;" lang="es" dir="auto">
+        ꧁𒆜 🅽🅾 🅿🆄🅳🅴 🅳🅴🆂🅲🅰🅽🆂🅰🆁 🅼🅸🆂 8 🅷🅾🆁🅰🆂, 🅷🅴🅻🅿 🅼🅴 𒆜꧂
+        
+    </pre>
+
+    <p>atributos para etiquetas de semanticas para texto </p>
+
+    <p>etiqueta a </p>
+    <!--download hace que el navegador trate la url vinculada como una descarga y se puedo usar con o sin valor-->
+    <!--href es la direccion url a la que apunta el hipervinculo-->
+    <!--hreflang insinua el lenguaje humano de la url vinculada. sin funcionalidad incorporada-->
+    <!--ping una lista de direcciones rl separada por espacios-->
+    <!--referrerpolicy cuando del referente enviar al seguir el enlace-->
+    <!--rel es la relacion de la direccion URL vinculada como tipos de vinculos separados por espacio-->
+    <!--target es donde mostrar la url vinculada-->
+    <a download="" target="_blank" type="radio" rel="navegador" referrerpolicy="origin" ping="https://www.youtube.com/watch?v=ARWg160eaX4" hreflang="en" href="https://www.youtube.com/watch?v=ARWg160eaX4">ejemplo de atributo href </a>
+
+    <p>etiqueta cite </p>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+    <cite title="prueba de atributos en cite" id="cite" class="mi ejemplo de cite" style="color:orange ;" lang="en" dir="ltr"> ejemplo de cite</cite>
+
+    <p>atributos para etiquetas para incrustar contenido </p>
+
+    <p>etiqueta img </p>
+    <!--align Indica la alineación horizontal con relación al contexto-->
+    <!--alt define el texto alternativo que describe la imagen, texto que los usuarios verán si la URL de la imagen es errónea-->
+    <!--align Indica la alineación horizontal con relación al contexto-->
+    <!--align Indica la alineación horizontal con relación al contexto-->
+    <img src="img/momo.png" alt="imagen de miedo" style="color:aqua;" title="momo" height="120" referrerpolicy="origin">
+
+    <p>etiqueta source </p>
+    <!--src Es la ubicación del recurso multimedia, requerido por los elementos <audio> y <video>. El valor de este atributo es ignorado cuando el elemento <source> se coloca dentro de un elemento <picture>.-->
+    <video controls
+    width="250"
+    height="200"
+    muted>
+    <source src="video/neverita.mp4"
+            type="video/webm">
+    <source src="video/neverita.mp4"
+            type="video/mp4">
+    Download the
+    <a href="/video/neverita.mp4">WEBM</a>
+    or
+    <a href="video/neverita.mp4">MP4</a>
+    video.
+    </video>
+
+
+    <p>atributos para etiquetas de creacion de tablas </p>
+
+    <P>etiqueta tr  y td</P>
+    <!--tiene los atributos globales-->
+
+    <!--title Texto informativo o título del elemento.  -->
+    <!--id Le da un nombre al elemento que lo diferencia de todos los demás del documento.-->
+    <!--class Asigna nombres de clases al elemento. Por defecto, clases CSS.-->
+    <!--style Permite especificar información de estilo-->
+    <!--lang Permite especificar información de estilo -->
+    <!--dir Indica la dirección de texto y tablas.-->
+    <table>
+        <tr title="etiqueta tr" id="tr" class="t" style="color:green ;" lang="es" dir="auto">
+          <td bgcolor="yellow" rowspan="1" headers="3">alex</td>
+          <td bgcolor="yellow" rowspan="1" headers="3">piña</td>
+          <td bgcolor="yellow" rowspan="1" headers="3">leo</td>
+        </tr>
+        <tr title="etiqueta tr" id="tr" class="t" style="color:green ;" lang="es" dir="auto">
+          <td bgcolor="yellow" rowspan="1" headers="3">20</td>
+          <td bgcolor="yellow" rowspan="1" headers="3">21</td>
+          <td bgcolor="yellow" rowspan="1" headers="3">19</td>
+        </tr>
+      </table>
+
+    <p>atributos para etiquetas de creacion de formularios </p>
+    <p>etiqueta label y input </p>
+    <!-- Un simple ejemplo de un label con el atributo for -->
+    <label for="Name" accesskey="r">ejemplo de atributos en label</label>
+    <input type="text" id="Name" name="Name" />
+
+    <input type="submit" value="es es un atributo ">
+    <input type="radio">
+</body>
+</html>
